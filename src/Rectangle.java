@@ -20,7 +20,7 @@ public class Rectangle {
     public void setWidth(double initWidth) {
         this.width = initWidth;
     }
-    public void setHeight(double initHeight) {
+    public void setHeight(double initHeight) { 
         this.height = initHeight;
     }
 
@@ -36,8 +36,8 @@ public class Rectangle {
         return width == height;
     }
     public void drawRec() {
-        StdDraw.setPenColor(StdDraw.BLACK);
-        StdDraw.setPenRadius(0.05);
+        StdDraw.setPenColor(StdDraw.BLUE);
+        StdDraw.setPenRadius(0.1);
         StdDraw.rectangle(0.5, 0.5, width/2, height/2);
     }
 
